@@ -1,0 +1,102 @@
+[
+    {
+        "id_pessoa": 1,
+        "cep": "14400-123",
+        "cidade": "Franca",
+        "estado": "SP",
+        "logradouro": "Rua das Flores",
+        "numero": "123",
+        "bairro": "Centro",
+        "complemento": "Apto 12"
+    },
+    {
+        "id_pessoa": 2,
+        "cep": "14401-234",
+        "cidade": "Franca",
+        "estado": "SP",
+        "logradouro": "Avenida Brasil",
+        "numero": "456",
+        "bairro": "Jardim Brasil",
+        "complemento": "Casa 2"
+    },
+    {
+        "id_pessoa": 3,
+        "cep": "14020-345",
+        "cidade": "Ribeirão Preto",
+        "estado": "SP",
+        "logradouro": "Rua São Paulo",
+        "numero": "789",
+        "bairro": "Centro",
+        "complemento": "Apto 31"
+    },
+    {
+        "id_pessoa": 4,
+        "cep": "01310-456",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "logradouro": "Avenida Paulista",
+        "numero": "1000",
+        "bairro": "Bela Vista",
+        "complemento": "Sala 15"
+    },
+    {
+        "id_pessoa": 5,
+        "cep": "14402-567",
+        "cidade": "Franca",
+        "estado": "SP",
+        "logradouro": "Rua Tiradentes",
+        "numero": "250",
+        "bairro": "Estação",
+        "complemento": ""
+    },
+    {
+        "id_pessoa": 6,
+        "cep": "14300-678",
+        "cidade": "Batatais",
+        "estado": "SP",
+        "logradouro": "Rua Santos Dumont",
+        "numero": "321",
+        "bairro": "Centro",
+        "complemento": "Casa"
+    },
+    {
+        "id_pessoa": 7,
+        "cep": "14403-789",
+        "cidade": "Franca",
+        "estado": "SP",
+        "logradouro": "Rua General Osório",
+        "numero": "654",
+        "bairro": "São José",
+        "complemento": "Apto 4"
+    },
+    {
+        "id_pessoa": 8,
+        "cep": "14030-890",
+        "cidade": "Ribeirão Preto",
+        "estado": "SP",
+        "logradouro": "Rua Floriano Peixoto",
+        "numero": "987",
+        "bairro": "Jardim América",
+        "complemento": ""
+    },
+    {
+        "id_pessoa": 9,
+        "cep": "14404-901",
+        "cidade": "Franca",
+        "estado": "SP",
+        "logradouro": "Avenida Presidente Vargas",
+        "numero": "111",
+        "bairro": "Centro",
+        "complemento": "Apto 22"
+    },
+    {
+        "id_pessoa": 10,
+        "cep": "15010-012",
+        "cidade": "São José do Rio Preto",
+        "estado": "SP",
+        "logradouro": "Rua Bernardino de Campos",
+        "numero": "222",
+        "bairro": "Centro",
+        "complemento": "Casa"
+    }
+]

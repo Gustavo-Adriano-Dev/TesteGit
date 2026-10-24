@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="../../scripts/criaTabela.js" defer></script>
+    <link rel="stylesheet" href="../../style/cadastros.css">
+    <title>Projeto Abas</title>
+</head>
+<body>
+    <header id="header" >
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="/">Projeto Abas</a>
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Abrir menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item" id="dadosPessoais">
+                    <a class="nav-link" href="../cadastros/cad_pessoais.html">Dados Pessoais</a>
+                    </li>
+                    <li class="nav-item" id="dadosEstudantis">
+                    <a class="nav-link" href="../cadastros/cad_estudantis.html">Dados Estudantis</a>
+                    </li>
+                    <li class="nav-item" id="dadosPostais">
+                    <a class="nav-link" href="../cadastros/cad_postais.html">Dados Postais</a>
+                    </li>
+                    <li class="nav-item" id="tabelaDinamica">
+                    <a class="nav-link action" href="#">Tabelas Dinamicas</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="min-vh-100">
+        <h1 class="text-center m-4">Escolha a tabela:</h1>
+        <div class="text-center botoes">
+            <button class="btn btn-primary mb-3" id="btnTabelaPessoais">
+                Tabela de dados Pessoais
+            </button >
+            <button class="btn btn-primary mb-3" id="btnTabelaEstudantis">
+                Tabela de dados Estudantis
+            </button>
+            <button class="btn btn-primary mb-3" id="btnTabelaPostais">
+                Tabela de dados Postais
+            </button>
+        </div>
+
+        <hr>
+
+        <div class="table-responsive tabela-container  rounded">
+            <table class="table table-striped table-hover table-bordered align-middle text-center shadow-sm" id="tabela">
+                <thead class="table-dark align-middle" id="cabecalho">
+                </thead>
+
+                <tbody id="corpoTabela" class="text-nowrap">
+                </tbody>
+            </table>
+        </div>
+
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

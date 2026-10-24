@@ -1,0 +1,96 @@
+body {
+    background-color: rgba(126, 126, 126, 0.199)
+}
+
+
+form input::placeholder {
+    color: #cbcbcb !important;
+}
+
+form input[type="date"]:invalid {
+    color: #cbcbcb !important;
+}
+
+form select:invalid {
+    color: #cbcbcb !important;
+}
+
+form select option {
+    color: #000 !important;
+}
+
+form select option:disabled {
+    color: #cbcbcb !important;
+}
+
+.table-responsive::-webkit-scrollbar {
+    height: 18px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background: #cbcbcb;
+    border-radius: 10px;
+    border: 2px solid #212830;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+    background: #212830;
+}
+
+.mw-ch-8 {
+  width: 8ch !important; 
+}
+
+.mw-ch-10 {
+  width: 10ch !important; 
+}
+
+.mw-ch-14 {
+  width: 14ch !important; 
+}
+
+.mw-ch-15 {
+  width: 15ch !important; 
+}
+
+.mw-ch-16 {
+  width: 16ch !important; 
+}
+
+.mw-ch-30 {
+  width: 30ch !important; 
+}
+
+.mw-ch-3 {
+  width: 35ch !important; 
+}
+
+.mw-ch-40 {
+  width: 40ch !important; 
+}
+
+.mw-ch-35-40 {
+  width: 40ch !important;
+}
+
+.mw-ch-35-45 {
+  width: 45ch !important;
+}
+
+@media (max-width: 374px) {
+    .mw-ch-35-45 {
+    width: 35ch !important;
+    }
+    .mw-ch-35-40 {
+    width: 35ch !important; 
+    }
+
+}
+@media (min-width: 375px) and (max-width: 425px) {
+    .mw-ch-35-45 {
+      width: 41ch !important;
+    }
+    .mw-ch-35-40 {
+      width: 37ch !important; 
+    }
+}
